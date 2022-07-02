@@ -62,6 +62,20 @@ while True:
             playerwins += 1
             end += 1
 
+    elif userChoice == "paper":
+        if computerChoice == "scissors":
+            time.sleep(0.5)
+            print("Computer win!\n")
+            computerwins += 1
+            end += 1
+
+        else:
+            time.sleep(0.5)
+            print("Player win!\n")
+            playerwins += 1
+            end += 1
+
+
     elif userChoice == "end":
             choices.append("end")
             print("\nGreat game!\n")
